@@ -50,5 +50,58 @@ After completing this lab, you will be able to:
 - Input System
 
 3. Enable OpenXR:
+   
+Edit → Project Settings → XR Plug-in Management → Enable OpenXR
 
 
+4. Add XR Origin:
+
+Hierarchy → XR → XR Origin (Action-based)
+
+
+5. Create floor:
+
+3D Object → Plane
+Rename: Ground
+Scale: (3,1,3)
+
+
+6. Add Teleportation Area component to Ground.
+
+7. Add objects:
+
+- Cube
+- Sphere
+- Capsule
+
+8. Enter Play Mode to verify setup.
+
+---
+
+## Submission
+
+Record a 30–60 second screen video showing:
+
+- XR Origin in Hierarchy
+- Ground object with Teleportation Area
+- Play Mode running
+
+File name:
+
+Lab01_<ITNo>.mp4
+
+
+Upload the video file to this repository and push your changes.
+
+---
+
+## Notes
+
+- This project is only for Lab 01.
+- Lab 02 will start a new project using the VR Core Template.
+- Use the same Unity version for all labs.
+
+---
+
+
+Labsheet Created by Nushkan Nismi
