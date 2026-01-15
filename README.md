@@ -91,7 +91,7 @@ File name:
 Lab01_<ITNo>.mp4
 
 
-Upload the video file to this repository and push your changes.
+Commit and push the project files with the video file to your GitHub Classroom repository.
 
 ---
 
@@ -104,4 +104,4 @@ Upload the video file to this repository and push your changes.
 ---
 
 
-Labsheet Created by Nushkan Nismi
+Lab sheet created by **Nushkan Nismi**.
