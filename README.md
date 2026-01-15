@@ -40,11 +40,7 @@ After completing this lab, you will be able to:
 
 ## Task Instructions
 
-1. Create a new project using:
-
-## Template: 3D (URP)
-Project Name: Lab01_ManualVR_URP
-
+1. Create a new project using: Template: 3D (URP) | Project Name: Lab01_ManualVR_URP
 
 2. Install packages:
 
