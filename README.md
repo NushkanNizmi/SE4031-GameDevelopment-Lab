@@ -1,49 +1,52 @@
-# Lab 01 – Manual VR Setup using URP (Without VR Template)
+# Lab 01 – Manual VR Setup (URP) without VR Template
 
-Module: Interactive Media / VR Development  
+Unity Version: 2022.3 LTS  
 Lab Duration: 2 Hours  
-Unity Version: 6.3 LTS (or module standard LTS)  
 
 ---
 
-## Objective
+## Goal
 
-To manually configure a Virtual Reality environment in Unity using a standard 3D URP project, OpenXR, and XR Interaction Toolkit without using the VR Core Template.
+Learn how to manually configure a Virtual Reality project in Unity using:
 
-This lab builds foundational understanding of VR components before working with automated templates.
+- 3D URP template
+- OpenXR
+- XR Interaction Toolkit
+
+This project is not reused in later labs.
 
 ---
 
 ## Learning Outcomes
 
-After completing this lab, students will be able to:
+After completing this lab, you will be able to:
 
 - Create a URP project in Unity
-- Install XR-related packages using Package Manager
+- Install XR packages using Package Manager
 - Enable and configure OpenXR
-- Add and configure XR Origin (Action-based) manually
-- Configure teleport locomotion using a floor surface
-- Verify VR scene configuration using Play Mode
+- Add XR Origin (Action-based) manually
+- Setup teleport locomotion using a floor surface
+- Verify a basic VR scene setup
 
 ---
 
 ## Software Requirements
 
-- Unity Hub
-- Unity 6.3 LTS (or course-specified LTS version)
+- Unity 2022.3 LTS
 - Windows PC
-- VR Headset (optional)
+- VR headset (optional)
 
 ---
 
 ## Task Instructions
 
-1. Create a new Unity project using the **3D (URP)** template named:
+1. Create a new project using:
 
-# Lab01_ManualVR_URP
+Template: 3D (URP)
+Project Name: Lab01_ManualVR_URP
 
 
-2. Install the following packages from Package Manager:
+2. Install packages:
 
 - XR Plug-in Management
 - OpenXR Plugin
@@ -52,61 +55,4 @@ After completing this lab, students will be able to:
 
 3. Enable OpenXR:
 
-
-# Edit → Project Settings → XR Plug-in Management → Enable OpenXR
-
-
-4. Add XR Origin:
-
-
-# Hierarchy → XR → XR Origin (Action-based)
-
-
-5. Create a Plane named `Ground` and add:
-
-
-# Teleportation Area component
-
-
-6. Add the following objects to the scene:
-
-- Cube
-- Sphere
-- Capsule
-
-7. Enter Play Mode to verify setup.
-
----
-
-## Submission Instructions
-
-1. Record a **30–60 second screen video** showing:
-
-- XR Origin in the hierarchy
-- Ground object with Teleportation Area
-- Play Mode running
-
-2. Name the video file:
-
-
-# Lab01_<ITNumber>.mp4
-
-
-3. Upload (commit & push) the video file to this repository.
-
----
-
-## Notes
-
-- This project is only for Lab 01.
-- A new project using the VR Core Template will be created in Lab 02.
-- Ensure Unity version consistency across all labs.
-
----
-
-## Deadline
-
-Refer to the course LMS for the submission deadline.
-
----
 
